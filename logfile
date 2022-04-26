@@ -1,0 +1,27 @@
+2022-04-26 18:15:17.476 EDT [20595] LOG:  starting PostgreSQL 14.2 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2022-04-26 18:15:17.479 EDT [20595] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-04-26 18:15:17.479 EDT [20595] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-04-26 18:15:17.479 EDT [20595] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-04-26 18:15:17.479 EDT [20595] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-04-26 18:15:17.479 EDT [20595] WARNING:  could not create listen socket for "localhost"
+2022-04-26 18:15:17.479 EDT [20595] FATAL:  could not create any TCP/IP sockets
+2022-04-26 18:15:17.481 EDT [20595] LOG:  database system is shut down
+2022-04-26 18:17:07.377 EDT [20655] LOG:  starting PostgreSQL 14.2 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2022-04-26 18:17:07.529 EDT [20655] LOG:  could not bind IPv6 address "::1": Address already in use
+2022-04-26 18:17:07.529 EDT [20655] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-04-26 18:17:07.653 EDT [20655] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-04-26 18:17:07.653 EDT [20655] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-04-26 18:17:07.653 EDT [20655] WARNING:  could not create listen socket for "localhost"
+2022-04-26 18:17:07.653 EDT [20655] FATAL:  could not create any TCP/IP sockets
+2022-04-26 18:17:07.655 EDT [20655] LOG:  database system is shut down
+2022-04-26 18:33:36.752 EDT [22072] LOG:  starting PostgreSQL 14.2 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.30), 64-bit
+2022-04-26 18:33:36.754 EDT [22072] LOG:  listening on IPv6 address "::1", port 5432
+2022-04-26 18:33:36.754 EDT [22072] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-04-26 18:33:36.757 EDT [22072] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-04-26 18:33:36.769 EDT [22073] LOG:  database system was shut down at 2022-04-26 18:14:42 EDT
+2022-04-26 18:33:36.776 EDT [22072] LOG:  database system is ready to accept connections
+2022-04-26 18:35:06.660 EDT [22119] FATAL:  database "ontop_development" does not exist
+2022-04-26 18:36:22.982 EDT [22170] ERROR:  database "ontop_development" already exists
+2022-04-26 18:36:22.982 EDT [22170] STATEMENT:  CREATE DATABASE "ontop_development" ENCODING = 'unicode'
+2022-04-26 18:36:22.998 EDT [22171] ERROR:  database "ontop_test" already exists
+2022-04-26 18:36:22.998 EDT [22171] STATEMENT:  CREATE DATABASE "ontop_test" ENCODING = 'unicode'
